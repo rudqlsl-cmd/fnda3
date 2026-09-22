@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHINSEGAE LUGGAGE PASS - 브랜드 런칭 홍보 기획서 & 디지털 쇼케이스</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,600;0,800;1,600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            green: '#004C2E',
+                            darkgreen: '#00331F',
+                            burgundy: '#6B1D2F',
+                            wine: '#4A121F',
+                            gold: '#D4AF37',
+                            goldlight: '#F4E5B0',
+                            ivory: '#FBF9F5',
+                            cream: '#F4EFE6',
+                            charcoal: '#1A1A1A'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Noto Sans KR"', 'sans-serif'],
+                        serif: ['"Playfair Display"', 'serif'],
+                        cinzel: ['Cinzel', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .bg-pattern {
+            background-color: #fbf9f5;
+            background-image: radial-gradient(#004c2e 0.5px, transparent 0.5px), radial-gradient(#004c2e 0.5px, #fbf9f5 0.5px);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(212, 175, 55, 0.25);
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #F4EFE6;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #004C2E;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #6B1D2F;
+        }
+    </style>
+</head>
+<body class="bg-brand-ivory text-brand-charcoal font-sans antialiased selection:bg-brand-gold selection:text-brand-darkgreen">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brand-burgundy text-white text-xs py-2 px-4 text-center tracking-wider flex justify-between items-center z-50 relative">
+        <div class="container mx-auto flex justify-between items-center w-full px-2 md:px-8">
+            <span class="flex items-center gap-2 font-medium">
+                <i data-lucide="sparkles" class="w-3.5 h-3.5 text-brand-gold animate-pulse"></i>
+                <span>SHINSEGAE LUGGAGE PASS 공식 오픈 홍보 기획서 & 디지털 쇼케이스</span>
+            </span>
+            <div class="flex items-center gap-4 text-[11px]">
+                <span class="hidden md:inline text-brand-goldlight">제출팀: 부산대학교 2조 | 제출일: 2026.09.22</span>
+                <span class="bg-white/10 px-2 py-0.5 rounded text-brand-goldlight font-mono">D-Day Launch Ready</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-40 bg-brand-green/95 backdrop-blur-md text-white border-b border-brand-gold/30 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand Logo -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-10 h-10 rounded-full bg-brand-gold/20 border border-brand-gold flex items-center justify-center group-hover:scale-105 transition">
+                        <i data-lucide="plane-takeoff" class="w-5 h-5 text-brand-gold"></i>
+                    </div>
+                    <div>
+                        <span class="block text-[10px] tracking-[0.25em] text-brand-gold font-cinzel uppercase font-semibold">Shinsegae Dept. Store</span>
+                        <span class="text-xl font-black tracking-tight font-serif text-white group-hover:text-brand-goldlight transition">LUGGAGE PASS</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden lg:flex items-center gap-6 text-sm font-medium">
+                    <a href="#overview" class="hover:text-brand-gold transition py-1 border-b-2 border-transparent hover:border-brand-gold">기획 배경 & 전략</a>
+                    <a href="#pillars" class="hover:text-brand-gold transition py-1 border-b-2 border-transparent hover:border-brand-gold">4대 핵심가치</a>
+                    <a href="#promos" class="hover:text-brand-gold transition py-1 border-b-2 border-transparent hover:border-brand-gold">홍보물 3종 산출물</a>
+                    <a href="#execution" class="hover:text-brand-gold transition py-1 border-b-2 border-transparent hover:border-brand-gold">채널 집행 & 체크리스트</a>
+                    <a href="#kpi" class="hover:text-brand-gold transition py-1 border-b-2 border-transparent hover:border-brand-gold">기대효과 & KPI</a>
+                </nav>
+
+                <!-- Header Simulator Button -->
+                <div class="flex items-center gap-3">
+                    <button onclick="openBookingModal()" class="bg-gradient-to-r from-brand-gold to-yellow-600 hover:from-yellow-500 hover:to-brand-gold text-brand-darkgreen font-bold text-xs sm:text-sm px-4 py-2.5 rounded-full shadow-md hover:shadow-xl transition transform hover:-translate-y-0.5 flex items-center gap-2">
+                        <i data-lucide="ticket" class="w-4 h-4"></i>
+                        <span>패스 시뮬레이터</span>
+                    </button>
+                    <!-- Mobile Menu Button -->
+                    <button onclick="toggleMobileMenu()" class="lg:hidden p-2 rounded-md hover:bg-white/10 text-white">
+                        <i data-lucide="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-brand-darkgreen border-b border-brand-gold/30 px-4 pt-2 pb-6 space-y-3">
+            <a href="#overview" onclick="toggleMobileMenu()" class="block py-2 text-white hover:text-brand-gold">1. 기획 배경 및 목적</a>
+            <a href="#pillars" onclick="toggleMobileMenu()" class="block py-2 text-white hover:text-brand-gold">2. 4대 핵심 기능 & 패키지</a>
+            <a href="#promos" onclick="toggleMobileMenu()" class="block py-2 text-white hover:text-brand-gold">3. 오픈 홍보물 3종 (포스터·카드뉴스·쇼츠)</a>
+            <a href="#execution" onclick="toggleMobileMenu()" class="block py-2 text-white hover:text-brand-gold">4. 채널별 집행 & 실행 체크리스트</a>
+            <a href="#kpi" onclick="toggleMobileMenu()" class="block py-2 text-white hover:text-brand-gold">5. 기대 효과 및 KPI</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-brand-green text-white overflow-hidden py-20 lg:py-28">
+        <!-- Background Elements -->
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="absolute -right-20 -top-20 w-96 h-96 rounded-full bg-brand-burgundy/40 blur-3xl pointer-events-none"></div>
+        <div class="absolute -left-20 -bottom-20 w-96 h-96 rounded-full bg-brand-gold/20 blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Column Text Content -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-brand-gold/40 backdrop-blur-sm text-brand-goldlight text-xs font-semibold">
+                        <i data-lucide="sparkles" class="w-3.5 h-3.5 text-brand-gold"></i>
+                        <span>신세계백화점 외국인 관광객 맞춤형 핸즈프리 쇼핑 솔루션</span>
+                    </div>
+
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">
+                        <span class="block text-white">쇼핑은 더 많이,</span>
+                        <span class="block gold-gradient-text font-serif italic mt-1">짐은 더 가볍게.</span>
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-emerald-100/90 font-light max-w-2xl leading-relaxed mx-auto lg:mx-0">
+                        "사는 건 고객이, 들고 다니는 건 백화점이."<br>
+                        결제부터 매장 자동 집결, 공항 직송 배송, 라운지 혜택까지 한 장의 패스로 해결하는 원스톱 프리미엄 쇼핑 컨시어지 서비스.
+                    </p>
+
+                    <!-- Target Persona Badge -->
+                    <div class="pt-2 flex flex-wrap justify-center lg:justify-start gap-4">
+                        <div class="bg-brand-darkgreen/80 border border-brand-gold/30 rounded-2xl p-3.5 flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-full bg-brand-burgundy border border-brand-gold/50 flex items-center justify-center font-bold text-sm text-white shrink-0">
+                                칭칭
+                            </div>
+                            <div class="text-left text-xs">
+                                <span class="text-brand-gold font-bold block">타깃 페르소나 '칭칭' (28세)</span>
+                                <span class="text-gray-300">K-컬처 Fan FIT 개별 여행객 (첫 방한 6박 7일 / 충동구매·SNS 공유형)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CTA Actions -->
+                    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="#promos" class="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-brand-gold to-yellow-600 text-brand-darkgreen font-bold text-center shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                            <i data-lucide="play-circle" class="w-5 h-5"></i>
+                            <span>홍보 산출물 3종 체험하기</span>
+                        </a>
+                        <a href="#execution" class="w-full sm:w-auto px-8 py-4 rounded-full bg-white/10 hover:bg-white/20 text-white font-semibold border border-white/30 text-center transition flex items-center justify-center gap-2">
+                            <i data-lucide="calendar" class="w-5 h-5 text-brand-gold"></i>
+                            <span>실행 로드맵 & 체크리스트</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column Luggage Pass Visual Card -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-sm rounded-3xl overflow-hidden shadow-2xl border-2 border-brand-gold/50 bg-gradient-to-b from-brand-burgundy via-brand-wine to-brand-darkgreen p-6 text-white text-center">
+                        <!-- Card Top Header -->
+                        <div class="flex justify-between items-center border-b border-brand-gold/30 pb-4 mb-6">
+                            <span class="text-xs font-cinzel text-brand-gold tracking-widest uppercase">Shinsegae Pass</span>
+                            <span class="px-2.5 py-0.5 rounded-full text-[10px] bg-brand-gold/20 text-brand-gold border border-brand-gold/40 font-mono">ALL-IN-ONE</span>
+                        </div>
+
+                        <!-- Main Pass Illustration -->
+                        <div class="my-6 py-8 px-4 bg-white/5 rounded-2xl border border-white/10 flex flex-col items-center justify-center space-y-4">
+                            <div class="w-20 h-20 rounded-2xl bg-gradient-to-tr from-brand-gold to-yellow-200 flex items-center justify-center shadow-inner text-brand-darkgreen">
+                                <i data-lucide="luggage" class="w-10 h-10"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-black font-cinzel tracking-wider text-white">LUGGAGE PASS</h3>
+                                <p class="text-xs text-brand-goldlight mt-1 font-mono">ID: LP-2026-FIT-8821</p>
+                            </div>
+                            <div class="grid grid-cols-2 gap-2 w-full pt-2 text-[11px] text-left">
+                                <div class="bg-black/30 p-2 rounded border border-white/10">
+                                    <span class="text-gray-400 block text-[9px]">쇼핑 중 짐 무게</span>
+                                    <span class="font-bold text-brand-gold">0 kg (Hands-Free)</span>
+                                </div>
+                                <div class="bg-black/30 p-2 rounded border border-white/10">
+                                    <span class="text-gray-400 block text-[9px]">배송 목적지</span>
+                                    <span class="font-bold text-white">인천공항 T1/T2</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bottom 4 Core Features -->
+                        <div class="grid grid-cols-4 gap-2 pt-2 border-t border-brand-gold/30 text-[10px] text-center">
+                            <div>
+                                <i data-lucide="credit-card" class="w-4 h-4 mx-auto text-brand-gold mb-1"></i>
+                                <span>PAY</span>
+                            </div>
+                            <div>
+                                <i data-lucide="shopping-bag" class="w-4 h-4 mx-auto text-brand-gold mb-1"></i>
+                                <span>COLLECT</span>
+                            </div>
+                            <div>
+                                <i data-lucide="truck" class="w-4 h-4 mx-auto text-brand-gold mb-1"></i>
+                                <span>DELIVER</span>
+                            </div>
+                            <div>
+                                <i data-lucide="crown" class="w-4 h-4 mx-auto text-brand-gold mb-1"></i>
+                                <span>VIP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Metrics Ribbon -->
+    <section class="bg-brand-darkgreen border-y border-brand-gold/30 text-white py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-2">
+                    <div class="text-brand-gold text-2xl lg:text-3xl font-black font-serif">0 kg</div>
+                    <div class="text-xs text-gray-300 mt-1">쇼핑 중 손에 쥐는 짐 무게</div>
+                </div>
+                <div class="p-2 border-l border-white/10">
+                    <div class="text-brand-gold text-2xl lg:text-3xl font-black font-serif">2.5h ➔ 5.5h</div>
+                    <div class="text-xs text-gray-300 mt-1">백화점 체류시간 2.2배 확대</div>
+                </div>
+                <div class="p-2 border-l border-white/10">
+                    <div class="text-brand-gold text-2xl lg:text-3xl font-black font-serif">+35 %</div>
+                    <div class="text-xs text-gray-300 mt-1">외국인 평균 객단가 성장 목표</div>
+                </div>
+                <div class="p-2 border-l border-white/10">
+                    <div class="text-brand-gold text-2xl lg:text-3xl font-black font-serif">92 %</div>
+                    <div class="text-xs text-gray-300 mt-1">방한 외국인 재방문 의향 달성</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1: Overview & Campaign Framework -->
+    <section id="overview" class="py-20 bg-pattern">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold text-brand-burgundy uppercase tracking-widest block mb-2 font-cinzel">01. Strategic Context</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-green">1. 기획 배경 및 목적 & 캠페인 전략</h2>
+                <div class="w-16 h-1 bg-brand-gold mx-auto mt-4 rounded-full"></div>
+                <p class="text-gray-600 mt-4 leading-relaxed text-sm sm:text-base">
+                    기획 단계(아이디어톤)에서 확정한 3대 축(콘셉트·타깃·핵심가치)을 변함없이 계승하여, 실제 런칭 시점에 바로 집행 가능한 오픈 홍보 산출물 3종과 채널별 실행 계획을 구체화했습니다.
+                </p>
+            </div>
+
+            <!-- 3 Core Pillars Matrix -->
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <!-- Card 1: Concept -->
+                <div class="bg-white rounded-2xl p-8 border border-brand-gold/30 shadow-md hover:shadow-xl transition group">
+                    <div class="w-12 h-12 rounded-xl bg-brand-green/10 text-brand-green flex items-center justify-center mb-6 group-hover:bg-brand-green group-hover:text-white transition">
+                        <i data-lucide="sparkle" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-bold text-brand-gold uppercase tracking-wider block mb-1">Concept</span>
+                    <h3 class="text-xl font-bold text-brand-charcoal mb-3">All-in-One 핸즈프리 패스</h3>
+                    <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                        “쇼핑은 더 많이, 짐은 더 가볍게 (Shop more. Carry less.)”<br>무거운 캐리어와 늘어나는 쇼핑백에서 자유로운 신세계 백화점 쇼핑 경험 혁신.
+                    </p>
+                </div>
+
+                <!-- Card 2: Target Persona -->
+                <div class="bg-white rounded-2xl p-8 border border-brand-gold/30 shadow-md hover:shadow-xl transition group">
+                    <div class="w-12 h-12 rounded-xl bg-brand-burgundy/10 text-brand-burgundy flex items-center justify-center mb-6 group-hover:bg-brand-burgundy group-hover:text-white transition">
+                        <i data-lucide="user-check" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-bold text-brand-gold uppercase tracking-wider block mb-1">Target Audience</span>
+                    <h3 class="text-xl font-bold text-brand-charcoal mb-3">페르소나 '칭칭' (28세)</h3>
+                    <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                        K-컬처, 뷰티, 패션 관심도가 높고 SNS 정보탐색 및 충동구매 성향이 강한 20대 후반 방한 첫 개별관광객(FIT, 6박 7일 일정).
+                    </p>
+                </div>
+
+                <!-- Card 3: Core Value -->
+                <div class="bg-white rounded-2xl p-8 border border-brand-gold/30 shadow-md hover:shadow-xl transition group">
+                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center mb-6 group-hover:bg-amber-500 group-hover:text-white transition">
+                        <i data-lucide="layers" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-bold text-brand-gold uppercase tracking-wider block mb-1">Core Functionality</span>
+                    <h3 class="text-xl font-bold text-brand-charcoal mb-3">4대 핵심 서비스 결합</h3>
+                    <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                        선충전 통합결제(PAY) ➔ 자동 집결(COLLECT) ➔ 공항 직송(DELIVER) ➔ 멤버십/라운지(MEMBERSHIP)의 매끄러운 원스톱 루프.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Campaign Strategy Summary Table -->
+            <div class="bg-white rounded-2xl border border-brand-gold/30 shadow-lg p-6 sm:p-8">
+                <h3 class="text-xl font-bold text-brand-green mb-6 flex items-center gap-2">
+                    <i data-lucide="compass" class="w-5 h-5 text-brand-gold"></i>
+                    <span>LUGGAGE PASS 런칭 캠페인 프레임워크</span>
+                </h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-xs sm:text-sm">
+                    <div class="p-4 bg-brand-cream/50 rounded-xl border border-brand-gold/20">
+                        <span class="text-brand-burgundy font-bold block mb-1">캠페인 기간</span>
+                        <span class="text-gray-800 font-semibold">오픈 D-14(티저) ~ D+30(성과 확산), 총 6주</span>
+                    </div>
+                    <div class="p-4 bg-brand-cream/50 rounded-xl border border-brand-gold/20">
+                        <span class="text-brand-burgundy font-bold block mb-1">핵심 메시지</span>
+                        <span class="text-gray-800 font-semibold">“사는 건 고객이, 들고 다니는 건 백화점이”</span>
+                    </div>
+                    <div class="p-4 bg-brand-cream/50 rounded-xl border border-brand-gold/20">
+                        <span class="text-brand-burgundy font-bold block mb-1">톤앤매너</span>
+                        <span class="text-gray-800 font-semibold">프리미엄 컨시어지 + 안심되는 신뢰감 (버건디·골드·그린)</span>
+                    </div>
+                </div>
+
+                <!-- Consistency Check Matrix -->
+                <div class="mt-8 border-t border-gray-200 pt-6">
+                    <h4 class="text-sm font-bold text-brand-charcoal mb-4">기획 단계 정의 요소의 홍보물 3종 일관성 반영 검증</h4>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left text-xs">
+                            <thead class="bg-brand-green text-white">
+                                <tr>
+                                    <th class="p-3">구분</th>
+                                    <th class="p-3">기획 단계 정의</th>
+                                    <th class="p-3">포스터 (Poster)</th>
+                                    <th class="p-3">카드뉴스 (Card News)</th>
+                                    <th class="p-3">쇼츠 (Shorts)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200 bg-white text-gray-700">
+                                <tr>
+                                    <td class="p-3 font-bold text-brand-green">콘셉트</td>
+                                    <td class="p-3">Shop more. Carry less.</td>
+                                    <td class="p-3">상단 헤드카피 및 워드마크 상시 노출</td>
+                                    <td class="p-3">슬라이드①에 동일 태그라인 배치</td>
+                                    <td class="p-3">오프닝 문제제기 → 엔딩 해결 내러티브</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-3 font-bold text-brand-burgundy">타깃</td>
+                                    <td class="p-3">K-컬처 팬 FIT 여행객 '칭칭'</td>
+                                    <td class="p-3">공항 게이트 배경 세련된 여행자 비주얼</td>
+                                    <td class="p-3">층별 안내·쇼핑백 증가 페인포인트 재현</td>
+                                    <td class="p-3">'칭칭' 페르소나 실사 모델 등장</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-3 font-bold text-amber-600">핵심가치</td>
+                                    <td class="p-3">PAY · COLLECT · DELIVER · MEMBERSHIP</td>
+                                    <td class="p-3">하단 4-아이콘 그리드로 시각화</td>
+                                    <td class="p-3">슬라이드③ 아이콘 + 설명 제시</td>
+                                    <td class="p-3">STEP 자막으로 기능 순차 연출</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section 2: 4 Pillars & Pricing Packages -->
+    <section id="pillars" class="py-20 bg-brand-green text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold text-brand-gold uppercase tracking-widest block mb-2 font-cinzel">02. Core Architecture</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold">2. LUGGAGE PASS 4대 핵심 기능 & 패키지</h2>
+                <p class="text-emerald-100/80 mt-3 text-sm">고객의 쇼핑 모든 순간을 하나의 패스로 매끄럽게 연결합니다.</p>
+            </div>
+
+            <!-- 4 Core Pillars Cards -->
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Pillar 1 -->
+                <div class="bg-brand-darkgreen/90 border border-brand-gold/30 rounded-2xl p-6 hover:border-brand-gold transition duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-brand-gold/20 border border-brand-gold text-brand-gold flex items-center justify-center mb-4">
+                        <i data-lucide="credit-card" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-mono text-brand-gold font-bold">STEP 01</span>
+                    <h3 class="text-xl font-bold mt-1 mb-2 text-white">PAY</h3>
+                    <p class="text-xs text-brand-goldlight font-semibold mb-3">선충전 간편 통합 결제</p>
+                    <p class="text-xs text-gray-300 leading-relaxed">
+                        패스 선충전으로 복잡한 환전이나 카드 승인 절차 없이 백화점 전 매장에서 원스톱 결제 실행.
+                    </p>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div class="bg-brand-darkgreen/90 border border-brand-gold/30 rounded-2xl p-6 hover:border-brand-gold transition duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-brand-gold/20 border border-brand-gold text-brand-gold flex items-center justify-center mb-4">
+                        <i data-lucide="shopping-bag" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-mono text-brand-gold font-bold">STEP 02</span>
+                    <h3 class="text-xl font-bold mt-1 mb-2 text-white">COLLECT</h3>
+                    <p class="text-xs text-brand-goldlight font-semibold mb-3">구매품 자동 집결</p>
+                    <p class="text-xs text-gray-300 leading-relaxed">
+                        매장에서 구매한 상품을 손에 들 필요 없이, 직원 태그 스캔 후 중앙 물류 센터로 자동 집결 처리.
+                    </p>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div class="bg-brand-darkgreen/90 border border-brand-gold/30 rounded-2xl p-6 hover:border-brand-gold transition duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-brand-gold/20 border border-brand-gold text-brand-gold flex items-center justify-center mb-4">
+                        <i data-lucide="truck" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-mono text-brand-gold font-bold">STEP 03</span>
+                    <h3 class="text-xl font-bold mt-1 mb-2 text-white">DELIVER</h3>
+                    <p class="text-xs text-brand-goldlight font-semibold mb-3">공항 직송 배송</p>
+                    <p class="text-xs text-gray-300 leading-relaxed">
+                        보관된 캐리어와 쇼핑한 구매품을 지정 출국 공항(인천공항 T1/T2 등) 전용 데스크로 시간 맞춰 안전 직송.
+                    </p>
+                </div>
+
+                <!-- Pillar 4 -->
+                <div class="bg-brand-darkgreen/90 border border-brand-gold/30 rounded-2xl p-6 hover:border-brand-gold transition duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-brand-gold/20 border border-brand-gold text-brand-gold flex items-center justify-center mb-4">
+                        <i data-lucide="crown" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-mono text-brand-gold font-bold">STEP 04</span>
+                    <h3 class="text-xl font-bold mt-1 mb-2 text-white">MEMBERSHIP</h3>
+                    <p class="text-xs text-brand-goldlight font-semibold mb-3">글로벌 라운지 & 리워드</p>
+                    <p class="text-xs text-gray-300 leading-relaxed">
+                        패스 등급에 따른 신세계 전용 VIP 라운지 입장, 웰컴 드링크, 브랜드 추가 할인 쿠폰 제공.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Pass Tiers & Pricing Cards -->
+            <div class="mt-16 bg-white/5 border border-brand-gold/30 rounded-3xl p-8 backdrop-blur-sm">
+                <div class="text-center mb-10">
+                    <h3 class="text-2xl font-bold text-white font-serif">여행 일정별 LUGGAGE PASS 패키지</h3>
+                    <p class="text-xs text-brand-goldlight mt-1">FIT 개별 여행객의 체류 기간 및 쇼핑 패턴에 최적화된 3가지 옵션</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-6">
+                    <!-- Day Pass -->
+                    <div class="bg-brand-burgundy/80 border border-brand-gold/40 rounded-2xl p-6 text-center hover:scale-105 transition shadow-lg">
+                        <span class="px-3 py-1 bg-white/10 rounded-full text-xs font-mono text-brand-goldlight">DAY PASS</span>
+                        <div class="text-3xl font-black font-serif text-white mt-4 mb-1">20,000<span class="text-sm font-normal">원</span></div>
+                        <p class="text-xs text-brand-goldlight mb-4">당일 쇼핑 고객 전용</p>
+                        <ul class="text-xs text-gray-200 space-y-2 text-left border-t border-white/20 pt-4">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> <span>당일 캐리어 보관 1개</span></li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> <span>당일 구매품 자동 집결 & 공항 직송</span></li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> <span>기본 멤버십 쿠폰팩</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Stay Pass (Popular) -->
+                    <div class="bg-brand-darkgreen border-2 border-brand-gold rounded-2xl p-6 text-center relative shadow-2xl hover:scale-105 transition">
+                        <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand-gold text-brand-darkgreen text-[10px] font-bold px-3 py-0.5 rounded-full uppercase tracking-wider">Most Popular</span>
+                        <span class="px-3 py-1 bg-white/10 rounded-full text-xs font-mono text-brand-gold">STAY PASS</span>
+                        <div class="text-3xl font-black font-serif text-white mt-4 mb-1">35,000<span class="text-sm font-normal">원</span></div>
+                        <p class="text-xs text-brand-goldlight mb-4">최대 7일 반복 이용 (6박7일 일정 적합)</p>
+                        <ul class="text-xs text-gray-200 space-y-2 text-left border-t border-white/20 pt-4">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> <span>최대 7일간 캐리어/쇼핑백 무제한 보관</span></li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> <span>출국 당일 지정 공항 일괄 직송</span></li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> <span>웰컴센터 무료 음료 쿠폰 2매</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Premium Pass -->
+                    <div class="bg-gradient-to-b from-amber-950 to-brand-darkgreen border border-brand-gold/40 rounded-2xl p-6 text-center hover:scale-105 transition shadow-lg">
+                        <span class="px-3 py-1 bg-white/10 rounded-full text-xs font-mono text-brand-goldlight">PREMIUM PASS</span>
+                        <div class="text-3xl font-black font-serif text-white mt-4 mb-1">50,000<span class="text-sm font-normal">원</span></div>
+                        <p class="text-xs text-brand-goldlight mb-4">우선 배송 + VIP 라운지 혜택</p>
+                        <ul class="text-xs text-gray-200 space-y-2 text-left border-t border-white/20 pt-4">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> <span>Stay Pass 기능 전체 포함</span></li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> <span>공항 수령 데스크 익스프레스 우선 처리</span></li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-gold"></i> <span>신세계 VIP 라운지 패밀리 입장권</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section 3: Promotional Assets Showcase -->
+    <section id="promos" class="py-20 bg-brand-ivory">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-bold text-brand-burgundy uppercase tracking-widest block mb-2 font-cinzel">03. Creative Deliverables</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-green">3. 오픈 홍보물 3종 산출물</h2>
+                <p class="text-gray-600 mt-3 text-sm">
+                    포스터(2:3 세로형) · 카드뉴스(5컷 카루셀) · 쇼츠 영상(50초 세로형) 실시간 인터랙티브 미리보기
+                </p>
+            </div>
+
+            <!-- Asset Switcher Tabs -->
+            <div class="flex justify-center mb-10">
+                <div class="bg-brand-cream p-1.5 rounded-full border border-brand-gold/30 inline-flex space-x-1 shadow-inner">
+                    <button onclick="switchAssetTab('poster')" id="tab-poster" class="tab-btn px-6 py-2.5 rounded-full text-xs font-bold transition duration-200 bg-brand-green text-white shadow">
+                        3.1 포스터 (Poster)
+                    </button>
+                    <button onclick="switchAssetTab('cardnews')" id="tab-cardnews" class="tab-btn px-6 py-2.5 rounded-full text-xs font-bold transition duration-200 text-brand-charcoal hover:text-brand-green">
+                        3.2 카드뉴스 5컷 (Card News)
+                    </button>
+                    <button onclick="switchAssetTab('shorts')" id="tab-shorts" class="tab-btn px-6 py-2.5 rounded-full text-xs font-bold transition duration-200 text-brand-charcoal hover:text-brand-green">
+                        3.3 쇼츠 영상 50초 (Shorts)
+                    </button>
+                </div>
+            </div>
+
+            <!-- Tab Content 1: Poster Showcase -->
+            <div id="content-poster" class="asset-content">
+                <div class="bg-white rounded-3xl p-6 lg:p-10 border border-brand-gold/30 shadow-xl grid lg:grid-cols-12 gap-8 items-center">
+                    <!-- Poster Frame Mockup -->
+                    <div class="lg:col-span-6 flex justify-center">
+                        <div class="relative w-full max-w-md aspect-[2/3] rounded-2xl overflow-hidden shadow-2xl border-4 border-brand-green bg-gradient-to-b from-brand-green via-brand-darkgreen to-black p-6 text-white flex flex-col justify-between">
+                            <!-- Top Brand Branding -->
+                            <div class="space-y-2 text-center border-b border-brand-gold/30 pb-3">
+                                <div class="text-[10px] tracking-[0.3em] font-cinzel text-brand-gold">SHINSEGAE DEPARTMENT STORE</div>
+                                <h3 class="text-2xl font-black font-serif tracking-tight text-white">쇼핑은 더 많이,<br><span class="text-brand-gold">짐은 더 가볍게.</span></h3>
+                                <div class="text-xs font-serif italic text-brand-goldlight">Shop more. Carry less.</div>
+                            </div>
+
+                            <!-- Central Poster Illustration -->
+                            <div class="my-4 py-6 px-4 bg-white/10 rounded-xl border border-white/20 backdrop-blur-sm text-center space-y-3">
+                                <div class="w-16 h-16 mx-auto rounded-full bg-brand-gold/20 border border-brand-gold flex items-center justify-center text-brand-gold">
+                                    <i data-lucide="plane" class="w-8 h-8"></i>
+                                </div>
+                                <div class="bg-brand-burgundy/90 py-1.5 px-3 rounded-lg text-xs font-bold text-white tracking-wider inline-block">
+                                    LUGGAGE PASS
+                                </div>
+                                <p class="text-[11px] text-gray-200 leading-snug">
+                                    사고, 들고 다니지 마세요.<br><strong class="text-brand-gold">신세계가 대신해드립니다.</strong>
+                                </p>
+                            </div>
+
+                            <!-- Bottom 4 Feature Grid -->
+                            <div class="grid grid-cols-4 gap-1.5 text-[9px] text-center pt-2 border-t border-white/20">
+                                <div class="bg-black/40 p-1.5 rounded">
+                                    <span class="font-bold text-brand-gold block">PAY</span>
+                                    <span class="text-[8px] text-gray-300">간편 결제</span>
+                                </div>
+                                <div class="bg-black/40 p-1.5 rounded">
+                                    <span class="font-bold text-brand-gold block">COLLECT</span>
+                                    <span class="text-[8px] text-gray-300">자동 집결</span>
+                                </div>
+                                <div class="bg-black/40 p-1.5 rounded">
+                                    <span class="font-bold text-brand-gold block">DELIVER</span>
+                                    <span class="text-[8px] text-gray-300">공항 직송</span>
+                                </div>
+                                <div class="bg-black/40 p-1.5 rounded">
+                                    <span class="font-bold text-brand-gold block">VIP</span>
+                                    <span class="text-[8px] text-gray-300">멤버십</span>
+                                </div>
+                            </div>
+
+                            <!-- Footer -->
+                            <div class="text-[9px] text-center text-gray-400 mt-2">
+                                SHINSEGAE DEPARTMENT STORE — OFFICIAL SERVICE
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Poster Specifications & Design Intent -->
+                    <div class="lg:col-span-6 space-y-6">
+                        <div class="inline-block bg-brand-green/10 text-brand-green text-xs font-bold px-3 py-1 rounded-full">
+                            포스터 제작 사양 및 가이드 (Poster Specifications)
+                        </div>
+                        <h3 class="text-2xl font-bold text-brand-charcoal">
+                            매장 접점 3초 인지용 고정형 비주얼
+                        </h3>
+                        
+                        <div class="space-y-4 text-xs sm:text-sm text-gray-600">
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 rounded-lg bg-brand-cream text-brand-burgundy font-bold flex items-center justify-center shrink-0">1</div>
+                                <div>
+                                    <strong class="text-brand-charcoal block">제작 의도</strong>
+                                    <p>
+                                        매장 방문 접점에서 3초 안에 서비스 개념이 각인되도록 헤드카피 "쇼핑은 더 많이, 짐은 더 가볍게"와 LUGGAGE PASS 워드마크를 최상단에 배치. 하단 4대 기능 아이콘 그리드로 통행 동선에서도 시각적 파악 용이.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 rounded-lg bg-brand-cream text-brand-burgundy font-bold flex items-center justify-center shrink-0">2</div>
+                                <div>
+                                    <strong class="text-brand-charcoal block">규격 및 활용 채널</strong>
+                                    <p>
+                                        세로형 2:3 (1024×1536). 백화점 정문·로비 입간판, 웰컴센터 배너, 지하철 연결통로 라이트박스 및 공식 앱 팝업 배너 연동.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-4 bg-brand-cream rounded-xl border border-brand-gold/30 flex justify-between items-center text-xs">
+                            <span class="text-gray-600">디지털 사이니지용 PNG/AI 인쇄본 다운로드</span>
+                            <button onclick="downloadPosterNotice()" class="px-3.5 py-2 bg-brand-green text-white rounded-lg font-bold hover:bg-brand-darkgreen transition flex items-center gap-1.5">
+                                <i data-lucide="download" class="w-3.5 h-3.5"></i>
+                                <span>파일 다운로드</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content 2: Card News Carousel -->
+            <div id="content-cardnews" class="asset-content hidden">
+                <div class="bg-white rounded-3xl p-6 lg:p-10 border border-brand-gold/30 shadow-xl space-y-8">
+                    
+                    <!-- Carousel Controls Header -->
+                    <div class="flex flex-col md:flex-row justify-between items-center gap-4 border-b border-gray-200 pb-6">
+                        <div>
+                            <span class="text-xs font-bold text-brand-gold uppercase tracking-wider block">5-Slide Storytelling Carousel</span>
+                            <h3 class="text-2xl font-bold text-brand-charcoal">카드뉴스 5컷 상세 슬라이더</h3>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-xs font-mono font-bold text-brand-burgundy px-3 py-1 bg-brand-burgundy/10 rounded-full" id="slideIndicator">Slide 1 / 5</span>
+                            <button onclick="prevCardNewsSlide()" class="p-2.5 rounded-full border border-gray-300 hover:bg-brand-green hover:text-white transition">
+                                <i data-lucide="chevron-left" class="w-5 h-5"></i>
+                            </button>
+                            <button onclick="nextCardNewsSlide()" class="p-2.5 rounded-full border border-gray-300 hover:bg-brand-green hover:text-white transition">
+                                <i data-lucide="chevron-right" class="w-5 h-5"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Slide Display Canvas & Info -->
+                    <div class="grid lg:grid-cols-12 gap-8 items-center">
+                        <!-- Square Slide Display -->
+                        <div class="lg:col-span-6 flex justify-center">
+                            <div id="cardNewsCanvas" class="w-full max-w-sm aspect-square rounded-2xl shadow-2xl border-2 border-brand-gold/40 p-6 flex flex-col justify-between text-white transition-all duration-300 bg-gradient-to-br from-brand-burgundy via-brand-wine to-brand-darkgreen">
+                                <!-- Dynamic Slide Injected via JS -->
+                            </div>
+                        </div>
+
+                        <!-- Slide Role & Story Breakdown -->
+                        <div class="lg:col-span-6 space-y-4">
+                            <div id="slideRoleBadge" class="inline-block bg-brand-gold/20 text-brand-burgundy border border-brand-gold/40 text-xs font-bold px-3 py-1 rounded-full">
+                                ① Hook · 서비스 소개
+                            </div>
+                            <h4 id="slideHeadline" class="text-2xl font-bold text-brand-charcoal">
+                                외국인 관광객을 위한 핸즈프리 쇼핑
+                            </h4>
+                            <p id="slideDesc" class="text-sm text-gray-600 leading-relaxed">
+                                공항 및 백화점 명품 비주얼로 쇼핑 기대감을 극대화하는 오프닝 슬라이드.
+                            </p>
+
+                            <div class="p-4 bg-brand-cream rounded-xl border border-brand-gold/20 text-xs space-y-2">
+                                <div class="flex justify-between font-bold text-brand-darkgreen">
+                                    <span>스토리텔링 역할 및 전환 포인트</span>
+                                    <span id="slideTag" class="font-mono text-brand-burgundy">#Hook #Intro</span>
+                                </div>
+                                <p id="slideDetail" class="text-gray-600">
+                                    방한 6박7일 첫 개별여행객 '칭칭'의 시선을 사로잡는 프리미엄 톤앤매너 오프닝.
+                                </p>
+                            </div>
+
+                            <!-- Carousel Dots -->
+                            <div class="flex justify-center md:justify-start gap-2 pt-2">
+                                <button onclick="setCardNewsSlide(0)" class="slide-dot w-3 h-3 rounded-full bg-brand-green transition"></button>
+                                <button onclick="setCardNewsSlide(1)" class="slide-dot w-3 h-3 rounded-full bg-gray-300 transition"></button>
+                                <button onclick="setCardNewsSlide(2)" class="slide-dot w-3 h-3 rounded-full bg-gray-300 transition"></button>
+                                <button onclick="setCardNewsSlide(3)" class="slide-dot w-3 h-3 rounded-full bg-gray-300 transition"></button>
+                                <button onclick="setCardNewsSlide(4)" class="slide-dot w-3 h-3 rounded-full bg-gray-300 transition"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Tab Content 3: Shorts Video Simulator -->
+            <div id="content-shorts" class="asset-content hidden">
+                <div class="bg-white rounded-3xl p-6 lg:p-10 border border-brand-gold/30 shadow-xl grid lg:grid-cols-12 gap-8">
+                    
+                    <!-- Vertical Phone Frame -->
+                    <div class="lg:col-span-5 flex justify-center">
+                        <div class="relative w-full max-w-[280px] aspect-[9/16] rounded-[36px] border-8 border-gray-900 bg-black overflow-hidden shadow-2xl flex flex-col justify-between text-white p-4">
+                            <!-- 9:16 Video Player Element -->
+                            <video id="shortsVideo" src="러기지 영상.mp4" playsinline preload="auto" class="absolute inset-0 w-full h-full object-cover z-0"></video>
+                            <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/20 to-black/85 z-0 pointer-events-none"></div>
+
+                            <!-- Phone Top Notch -->
+                            <div class="flex justify-between items-center text-[10px] text-gray-300 z-10 relative">
+                                <span class="font-mono">SHORTS 50s (9:16)</span>
+                                <div class="flex items-center gap-1">
+                                    <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
+                                    <span class="font-mono">LIVE VIDEO</span>
+                                </div>
+                            </div>
+
+                            <!-- Simulated Scene Frame & Subtitles -->
+                            <div class="my-auto text-center space-y-3 py-6 relative z-10 pointer-events-none">
+                                <div id="shortsSceneIcon" class="w-14 h-14 mx-auto rounded-full bg-brand-gold/20 border border-brand-gold flex items-center justify-center text-brand-gold transition duration-300 backdrop-blur-sm">
+                                    <i data-lucide="shopping-bag" class="w-7 h-7"></i>
+                                </div>
+                                <div id="shortsSceneTitle" class="text-sm font-bold text-white px-2 drop-shadow">
+                                    양손 가득 짐을 들고 있는 칭칭
+                                </div>
+                                <!-- Subtitle Overlay -->
+                                <div id="shortsSubtitle" class="bg-black/80 px-3 py-2 rounded-lg text-xs font-semibold text-brand-goldlight border border-white/20 mx-1 shadow backdrop-blur-md">
+                                    "양손 가득 짐을 들고 있는 칭칭"
+                                </div>
+                            </div>
+
+                            <!-- Controls Scrubber -->
+                            <div class="space-y-2 z-10 relative">
+                                <div class="w-full bg-gray-700/80 h-1.5 rounded-full overflow-hidden">
+                                    <div id="shortsProgressBar" class="bg-brand-gold h-full w-0 transition-all duration-200"></div>
+                                </div>
+                                <div class="flex justify-between items-center text-[10px] font-mono text-gray-300">
+                                    <span id="shortsTimeCurrent">0:00</span>
+                                    <span>0:50</span>
+                                </div>
+                                <div class="flex justify-center gap-4 pt-1">
+                                    <button onclick="toggleShortsPlay()" id="shortsPlayBtn" class="p-2.5 bg-brand-gold text-brand-darkgreen rounded-full hover:scale-110 transition shadow">
+                                        <i data-lucide="play" class="w-4 h-4"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Storyboard Timeline Steps -->
+                    <div class="lg:col-span-7 space-y-6">
+                        <div>
+                            <span class="text-xs font-bold text-brand-burgundy uppercase tracking-wider block">Shorts Storyboard Timeline</span>
+                            <h3 class="text-2xl font-bold text-brand-charcoal">50초 숏폼 영상 씬별 스토리보드</h3>
+                        </div>
+
+                        <!-- Scenes List -->
+                        <div class="space-y-2.5 text-xs">
+                            <div onclick="selectShortsScene(0)" class="scene-item p-3 rounded-xl border border-gray-200 hover:border-brand-gold bg-brand-cream/50 cursor-pointer transition flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <span class="font-mono font-bold text-brand-burgundy px-2 py-0.5 bg-brand-burgundy/10 rounded">0:00 - 0:05</span>
+                                    <div>
+                                        <strong class="text-brand-charcoal block">오프닝 후크 (문제 제기)</strong>
+                                        <span class="text-gray-500">양손 가득 짐을 들고 있는 칭칭 (타깃 불편 상황 제시)</span>
+                                    </div>
+                                </div>
+                                <i data-lucide="chevron-right" class="w-4 h-4 text-gray-400"></i>
+                            </div>
+
+                            <div onclick="selectShortsScene(1)" class="scene-item p-3 rounded-xl border border-gray-200 hover:border-brand-gold bg-white cursor-pointer transition flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <span class="font-mono font-bold text-brand-burgundy px-2 py-0.5 bg-brand-burgundy/10 rounded">0:05 - 0:15</span>
+                                    <div>
+                                        <strong class="text-brand-charcoal block">문제 상황 심화</strong>
+                                        <span class="text-gray-500">짐 맡길 곳을 찾는 칭칭 (무거운 캐리어와 이동 피로 연출)</span>
+                                    </div>
+                                </div>
+                                <i data-lucide="chevron-right" class="w-4 h-4 text-gray-400"></i>
+                            </div>
+
+                            <div onclick="selectShortsScene(2)" class="scene-item p-3 rounded-xl border border-gray-200 hover:border-brand-gold bg-white cursor-pointer transition flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <span class="font-mono font-bold text-brand-green px-2 py-0.5 bg-brand-green/10 rounded">0:15 - 0:20</span>
+                                    <div>
+                                        <strong class="text-brand-charcoal block">솔루션 발견 (전환점)</strong>
+                                        <span class="text-gray-500">찾았다, 러기지패스! (웰컴센터에서 패스 발급/위탁)</span>
+                                    </div>
+                                </div>
+                                <i data-lucide="chevron-right" class="w-4 h-4 text-gray-400"></i>
+                            </div>
+
+                            <div onclick="selectShortsScene(3)" class="scene-item p-3 rounded-xl border border-gray-200 hover:border-brand-gold bg-white cursor-pointer transition flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <span class="font-mono font-bold text-brand-green px-2 py-0.5 bg-brand-green/10 rounded">0:20 - 0:27</span>
+                                    <div>
+                                        <strong class="text-brand-charcoal block">핵심 기능 연출</strong>
+                                        <span class="text-gray-500">러기지패스 하나면 결제도 한번에 (PAY & COLLECT 모션)</span>
+                                    </div>
+                                </div>
+                                <i data-lucide="chevron-right" class="w-4 h-4 text-gray-400"></i>
+                            </div>
+
+                            <div onclick="selectShortsScene(4)" class="scene-item p-3 rounded-xl border border-gray-200 hover:border-brand-gold bg-white cursor-pointer transition flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <span class="font-mono font-bold text-brand-green px-2 py-0.5 bg-brand-green/10 rounded">0:27 - 0:38</span>
+                                    <div>
+                                        <strong class="text-brand-charcoal block">이용 프로세스 안내</strong>
+                                        <span class="text-gray-500">STEP 3. Pick up everything at the Airport! (공항 수령)</span>
+                                    </div>
+                                </div>
+                                <i data-lucide="chevron-right" class="w-4 h-4 text-gray-400"></i>
+                            </div>
+
+                            <div onclick="selectShortsScene(5)" class="scene-item p-3 rounded-xl border border-gray-200 hover:border-brand-gold bg-white cursor-pointer transition flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <span class="font-mono font-bold text-brand-gold px-2 py-0.5 bg-brand-gold/20 rounded">0:38 - 0:50</span>
+                                    <div>
+                                        <strong class="text-brand-charcoal block">해피엔딩 & CTA</strong>
+                                        <span class="text-gray-500">상황이 역전된 칭칭 (Carry less 완성, 예약 CTA)</span>
+                                    </div>
+                                </div>
+                                <i data-lucide="chevron-right" class="w-4 h-4 text-gray-400"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section 4: Channel Execution Plan & Checklists -->
+    <section id="execution" class="py-20 bg-pattern">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold text-brand-burgundy uppercase tracking-widest block mb-2 font-cinzel">04. Execution Matrix</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-green">4. 채널별 집행 계획 & 단계별 실행 체크리스트</h2>
+                <div class="w-16 h-1 bg-brand-gold mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <!-- Execution Matrix Table -->
+            <div class="bg-white rounded-2xl border border-brand-gold/30 shadow-lg overflow-hidden mb-12">
+                <div class="p-6 bg-brand-green text-white flex justify-between items-center">
+                    <h3 class="font-bold text-lg">채널별 매체 집행 로드맵</h3>
+                    <span class="text-xs bg-white/20 px-3 py-1 rounded-full text-brand-goldlight font-mono">Total 7 Channels</span>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-xs sm:text-sm">
+                        <thead class="bg-brand-cream border-b border-brand-gold/20 text-brand-darkgreen font-bold">
+                            <tr>
+                                <th class="p-4">채널</th>
+                                <th class="p-4">소재</th>
+                                <th class="p-4">게시 형식</th>
+                                <th class="p-4">집행 시점</th>
+                                <th class="p-4">목표 (KPI)</th>
+                                <th class="p-4">담당 부서</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100 text-gray-700">
+                            <tr class="hover:bg-brand-ivory/50 transition">
+                                <td class="p-4 font-bold text-brand-green">오프라인 매장 사이니지</td>
+                                <td class="p-4">포스터 (2:3)</td>
+                                <td class="p-4">실사출력 배너 / 입간판</td>
+                                <td class="p-4">D-7 설치 ~ 상시</td>
+                                <td class="p-4">매장 접점 인지 유도</td>
+                                <td class="p-4"><span class="px-2 py-0.5 bg-gray-100 rounded text-gray-600">매장기획팀</span></td>
+                            </tr>
+                            <tr class="hover:bg-brand-ivory/50 transition">
+                                <td class="p-4 font-bold text-brand-green">웰컴센터 · 공항 데스크</td>
+                                <td class="p-4">포스터 + 쇼츠 루프</td>
+                                <td class="p-4">디지털 사이니지 상영</td>
+                                <td class="p-4">오픈 당일 ~ 상시</td>
+                                <td class="p-4">현장 체험·발급 전환</td>
+                                <td class="p-4"><span class="px-2 py-0.5 bg-gray-100 rounded text-gray-600">웰컴센터 운영팀</span></td>
+                            </tr>
+                            <tr class="hover:bg-brand-ivory/50 transition">
+                                <td class="p-4 font-bold text-brand-burgundy">인스타그램 · 페이스북 피드</td>
+                                <td class="p-4">카드뉴스 5컷 (1:1)</td>
+                                <td class="p-4">피드 게시 + 해시태그</td>
+                                <td class="p-4">D-3 티저 ➔ D-Day 본게시</td>
+                                <td class="p-4">저장 · 공유 · 좋아요 수</td>
+                                <td class="p-4"><span class="px-2 py-0.5 bg-gray-100 rounded text-gray-600">SNS마케팅팀</span></td>
+                            </tr>
+                            <tr class="hover:bg-brand-ivory/50 transition">
+                                <td class="p-4 font-bold text-brand-burgundy">릴스 · 유튜브 쇼츠 · 틱톡</td>
+                                <td class="p-4">쇼츠 50초 (9:16)</td>
+                                <td class="p-4">숏폼 영상 업로드</td>
+                                <td class="p-4">D-Day 오전 동시 업로드</td>
+                                <td class="p-4">조회수 · 공유수 · 할인코드 사용률</td>
+                                <td class="p-4"><span class="px-2 py-0.5 bg-gray-100 rounded text-gray-600">콘텐츠제작팀</span></td>
+                            </tr>
+                            <tr class="hover:bg-brand-ivory/50 transition">
+                                <td class="p-4 font-bold text-brand-green">공식 홈페이지 · 앱</td>
+                                <td class="p-4">포스터 배너 + 카드뉴스 요약</td>
+                                <td class="p-4">팝업 배너 · 이벤트 페이지</td>
+                                <td class="p-4">D-Day ~ D+30</td>
+                                <td class="p-4">사전예약 전환율</td>
+                                <td class="p-4"><span class="px-2 py-0.5 bg-gray-100 rounded text-gray-600">디지털마케팅팀</span></td>
+                            </tr>
+                            <tr class="hover:bg-brand-ivory/50 transition">
+                                <td class="p-4 font-bold text-amber-600">제휴 매장 (올리브영 등)</td>
+                                <td class="p-4">카드뉴스 요약 POP</td>
+                                <td class="p-4">매장 내 POP · 결제대 안내</td>
+                                <td class="p-4">오픈 당일</td>
+                                <td class="p-4">크로스프로모션 가입 전환</td>
+                                <td class="p-4"><span class="px-2 py-0.5 bg-gray-100 rounded text-gray-600">제휴협력팀</span></td>
+                            </tr>
+                            <tr class="hover:bg-brand-ivory/50 transition">
+                                <td class="p-4 font-bold text-amber-600">K-컬처 해외 인플루언서</td>
+                                <td class="p-4">쇼츠 리믹스 · 체험 브이로그</td>
+                                <td class="p-4">협찬 콘텐츠 업로드</td>
+                                <td class="p-4">D-Day ~ D+14</td>
+                                <td class="p-4">해외 유입 트래픽 · UGC 확산</td>
+                                <td class="p-4"><span class="px-2 py-0.5 bg-gray-100 rounded text-gray-600">글로벌마케팅팀</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Interactive Launch Checklist -->
+            <div class="bg-white rounded-2xl border border-brand-gold/30 p-6 lg:p-8 shadow-lg">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6 border-b border-gray-200 pb-4">
+                    <div>
+                        <h3 class="text-xl font-bold text-brand-charcoal">5. 오픈 전·당일·오픈 후 실행 체크리스트</h3>
+                        <p class="text-xs text-gray-500 mt-0.5">시점별 진행 상황을 체크하여 런칭 준비 상태를 실시간 점검하세요.</p>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-xs text-gray-600">달성률:</span>
+                        <div class="w-32 bg-gray-200 h-3 rounded-full overflow-hidden">
+                            <div id="checklistProgressBar" class="bg-brand-green h-full w-0 transition-all duration-300"></div>
+                        </div>
+                        <span id="checklistPercent" class="text-xs font-bold font-mono text-brand-green">0%</span>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-6">
+                    <!-- Phase 1: Pre-Launch -->
+                    <div class="bg-brand-cream/60 p-4 rounded-xl border border-brand-gold/20 space-y-3">
+                        <div class="flex justify-between items-center text-xs font-bold text-brand-darkgreen border-b border-brand-gold/30 pb-2">
+                            <span>Phase 1 (오픈 전: D-14 ~ D-1)</span>
+                            <span class="font-mono text-brand-burgundy">Pre-Launch</span>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>홍보물 3종 최종 감수 (색교정 및 오탈자 검수)</span>
+                            </label>
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>오프라인 입간판 및 웰컴센터 배너 설치 완료</span>
+                            </label>
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>SNS D-3 티저 예약 게시 세팅 완료</span>
+                            </label>
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>제휴 매장(올리브영) POP 배포 및 교육</span>
+                            </label>
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>K-컬처 인플루언서 가이드 전달 및 확정</span>
+                            </label>
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>사전예약 페이지 및 QR코드 작동 테스트</span>
+                            </label>
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>웰컴센터 직원 패스 발급 응대 매뉴얼 교육</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Phase 2: Launch Day -->
+                    <div class="bg-brand-cream/60 p-4 rounded-xl border border-brand-gold/20 space-y-3">
+                        <div class="flex justify-between items-center text-xs font-bold text-brand-darkgreen border-b border-brand-gold/30 pb-2">
+                            <span>Phase 2 (오픈 당일: D-Day)</span>
+                            <span class="font-mono text-brand-burgundy">Launch Day</span>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>오프라인 사이니지 정상 노출 최종 점검</span>
+                            </label>
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>카드뉴스 5컷 본게시 및 해시태그 점검</span>
+                            </label>
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>쇼츠 영상 릴스·유튜브·틱톡 동시 업로드</span>
+                            </label>
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>웰컴센터 웰컴드링크 및 포토존 이벤트 가동</span>
+                            </label>
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>SNS 댓글 및 DM 실시간 반응 모니터링</span>
+                            </label>
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>초기 패스 발급 실시간 현황 집계</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Phase 3: Post-Launch -->
+                    <div class="bg-brand-cream/60 p-4 rounded-xl border border-brand-gold/20 space-y-3">
+                        <div class="flex justify-between items-center text-xs font-bold text-brand-darkgreen border-b border-brand-gold/30 pb-2">
+                            <span>Phase 3 (오픈 후: D+1 ~ D+30)</span>
+                            <span class="font-mono text-brand-burgundy">Post-Launch</span>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>주간 성과 리포트 집계 (도달 및 발급 전환율)</span>
+                            </label>
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>UGC 인증샷 선그램 및 할인쿠폰 리워드 지급</span>
+                            </label>
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>인플루언서 콘텐츠 유입 트래픽 성과 분석</span>
+                            </label>
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>채널별 광고 예산 A/B 테스트 최적화</span>
+                            </label>
+                            <label class="flex items-start gap-2 cursor-pointer hover:text-brand-green">
+                                <input type="checkbox" onchange="updateChecklist()" class="chk-item mt-0.5 rounded text-brand-green focus:ring-brand-green">
+                                <span>월간 종합 성과보고 및 차기 프로모션 연계</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section 5: KPI & Expected Effects -->
+    <section id="kpi" class="py-20 bg-brand-green text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold text-brand-gold uppercase tracking-widest block mb-2 font-cinzel">05. Business Impact</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold">6. 기대 효과 및 성과 측정 (KPI)</h2>
+                <div class="w-16 h-1 bg-brand-gold mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-10 items-center">
+                <!-- Text Targets -->
+                <div class="space-y-6">
+                    <div class="bg-brand-darkgreen p-6 rounded-2xl border border-brand-gold/30 space-y-4">
+                        <h3 class="text-xl font-bold text-brand-gold flex items-center gap-2">
+                            <i data-lucide="target" class="w-5 h-5"></i>
+                            <span>기획 단계 정량 목표 (유지)</span>
+                        </h3>
+                        <ul class="space-y-3 text-xs sm:text-sm text-gray-200">
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-brand-gold shrink-0 mt-0.5"></i>
+                                <span><strong>쇼핑 피로도 70% 이상 경감:</strong> 손에 쥐는 짐의 무게 0kg 실현</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-brand-gold shrink-0 mt-0.5"></i>
+                                <span><strong>백화점 체류시간 2.2배 확대:</strong> 평균 2.5시간 ➔ 5.5시간 연장</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-brand-gold shrink-0 mt-0.5"></i>
+                                <span><strong>구매력 증대:</strong> 1인당 추가 구매 품목 수 +2.3개, 외국인 객단가 35% 성장</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-brand-gold shrink-0 mt-0.5"></i>
+                                <span><strong>브랜드 충성도:</strong> 방한 외국인 관광객 재방문 의향 92% 달성</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Visual Metrics Simulators -->
+                <div class="space-y-4 text-xs sm:text-sm">
+                    <div class="bg-brand-darkgreen/80 p-5 rounded-2xl border border-white/10 space-y-2">
+                        <div class="flex justify-between font-bold">
+                            <span>체류시간 확대 성과</span>
+                            <span class="text-brand-gold font-mono">2.5h ➔ 5.5h (+120%)</span>
+                        </div>
+                        <div class="w-full bg-black/40 h-4 rounded-full overflow-hidden p-0.5">
+                            <div class="bg-gradient-to-r from-emerald-500 to-brand-gold h-full rounded-full w-[85%] transition-all duration-1000"></div>
+                        </div>
+                    </div>
+
+                    <div class="bg-brand-darkgreen/80 p-5 rounded-2xl border border-white/10 space-y-2">
+                        <div class="flex justify-between font-bold">
+                            <span>외국인 평균 객단가 상승</span>
+                            <span class="text-brand-gold font-mono">+35% Target</span>
+                        </div>
+                        <div class="w-full bg-black/40 h-4 rounded-full overflow-hidden p-0.5">
+                            <div class="bg-gradient-to-r from-brand-burgundy to-brand-gold h-full rounded-full w-[75%] transition-all duration-1000"></div>
+                        </div>
+                    </div>
+
+                    <div class="bg-brand-darkgreen/80 p-5 rounded-2xl border border-white/10 space-y-2">
+                        <div class="flex justify-between font-bold">
+                            <span>쇼핑 피로도 경감율</span>
+                            <span class="text-brand-gold font-mono">70%+ Relieved</span>
+                        </div>
+                        <div class="w-full bg-black/40 h-4 rounded-full overflow-hidden p-0.5">
+                            <div class="bg-gradient-to-r from-blue-500 to-brand-gold h-full rounded-full w-[90%] transition-all duration-1000"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section 6: Deliverables Summary & Conclusion -->
+    <section class="py-16 bg-brand-ivory border-t border-brand-gold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-2xl p-6 sm:p-8 border border-brand-gold/30 shadow-md">
+                <h3 class="text-xl font-bold text-brand-green mb-4">7. 맺음말 및 최종 제작 산출물 목록</h3>
+                <p class="text-xs sm:text-sm text-gray-600 leading-relaxed mb-6">
+                    본 홍보 기획서는 ‘All-in-One 핸즈프리 쇼핑 패스’라는 콘셉트, K-컬처 팬 FIT 여행객이라는 타깃, PAY·COLLECT·DELIVER·MEMBERSHIP의 핵심가치를 변경 없이 그대로 계승하여 오픈 시점에 집행 가능한 포스터, 카드뉴스, 쇼츠 3종을 완성했습니다.
+                </p>
+
+                <div class="grid md:grid-cols-3 gap-4 text-xs">
+                    <div class="p-3 bg-brand-cream rounded-xl border border-brand-gold/20">
+                        <strong class="text-brand-green block mb-1">포스터 (1종)</strong>
+                        <span>PNG, 세로형 2:3 (1024×1536)<br>매장 사이니지 · 홈페이지 배너용</span>
+                    </div>
+                    <div class="p-3 bg-brand-cream rounded-xl border border-brand-gold/20">
+                        <strong class="text-brand-green block mb-1">카드뉴스 (5컷 1세트)</strong>
+                        <span>PNG, 정방형 1:1 (1254×1254)<br>인스타그램 · 페이스북 피드용</span>
+                    </div>
+                    <div class="p-3 bg-brand-cream rounded-xl border border-brand-gold/20">
+                        <strong class="text-brand-green block mb-1">쇼츠 영상 (1편 50초)</strong>
+                        <span>MP4, 세로형 9:16 (720×1280)<br>릴스 · 쇼츠 · 틱톡 · 루프 영상용</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-darkgreen text-white py-12 border-t border-brand-gold/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6 border-b border-white/10 pb-8">
+                <div class="text-center md:text-left">
+                    <span class="block text-xs text-brand-gold font-cinzel tracking-widest">SHINSEGAE DEPARTMENT STORE</span>
+                    <h4 class="text-2xl font-black font-serif text-white mt-1">LUGGAGE PASS</h4>
+                    <p class="text-xs text-gray-300 mt-1">쇼핑은 더 많이, 짐은 더 가볍게 / Shop more. Carry less.</p>
+                </div>
+                <div class="text-center md:text-right text-xs text-gray-300 space-y-1">
+                    <p><strong>제출 과제:</strong> LUGGAGE PASS 오픈 홍보 기획서 & 산출물</p>
+                    <p><strong>제작팀:</strong> 부산대학교 2조 | <strong>제출일:</strong> 2026. 09. 22.</p>
+                </div>
+            </div>
+            <div class="text-center text-[11px] text-gray-400">
+                &copy; 2026 SHINSEGAE DEPARTMENT STORE & Pusan National University Team 2. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Pass Simulator Modal Window -->
+    <div id="bookingModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div class="bg-brand-ivory border-2 border-brand-gold rounded-3xl max-w-md w-full p-6 shadow-2xl relative text-brand-charcoal">
+            <button onclick="closeBookingModal()" class="absolute top-4 right-4 text-gray-500 hover:text-black p-1">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+
+            <div class="text-center mb-6">
+                <span class="text-xs font-mono text-brand-gold font-bold">DIGITAL PASS SIMULATION</span>
+                <h3 class="text-2xl font-bold font-serif text-brand-green mt-1">LUGGAGE PASS 사전 발급</h3>
+            </div>
+
+            <form onsubmit="handlePassSimulation(event)" class="space-y-4 text-xs">
+                <div>
+                    <label class="block font-bold text-brand-darkgreen mb-1">고객명 (Customer Name)</label>
+                    <input type="text" id="simName" value="Chingching (칭칭)" required class="w-full p-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-green outline-none">
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="block font-bold text-brand-darkgreen mb-1">패스 등급</label>
+                        <select id="simTier" class="w-full p-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-green outline-none font-bold text-brand-burgundy">
+                            <option value="DAY PASS (20,000원)">DAY PASS (20,000원)</option>
+                            <option value="STAY PASS (35,000원)" selected>STAY PASS (35,000원)</option>
+                            <option value="PREMIUM PASS (50,000원)">PREMIUM PASS (50,000원)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block font-bold text-brand-darkgreen mb-1">수령 공항</label>
+                        <select id="simAirport" class="w-full p-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-green outline-none">
+                            <option value="인천공항 T1">인천공항 T1</option>
+                            <option value="인천공항 T2">인천공항 T2</option>
+                            <option value="김포공항">김포공항</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="w-full py-3 bg-gradient-to-r from-brand-gold to-yellow-600 text-brand-darkgreen font-bold rounded-xl shadow-md hover:shadow-lg transition">
+                    모의 모바일 패스 QR 생성하기
+                </button>
+            </form>
+
+            <!-- Generated Digital Pass Output -->
+            <div id="simPassResult" class="hidden mt-6 p-4 bg-brand-darkgreen text-white rounded-2xl border border-brand-gold/40 text-center space-y-3">
+                <div class="text-[10px] text-brand-gold font-cinzel tracking-widest">ISSUED DIGITAL LUGGAGE PASS</div>
+                <div id="simResultTier" class="text-lg font-bold text-brand-goldlight">STAY PASS</div>
+                <div id="simResultInfo" class="text-xs text-gray-300">Name: Chingching | Pickup: 인천공항 T1</div>
+                <div class="w-24 h-24 bg-white p-2 mx-auto rounded-lg flex items-center justify-center">
+                    <i data-lucide="qr-code" class="w-20 h-20 text-brand-darkgreen"></i>
+                </div>
+                <p class="text-[10px] text-gray-400">백화점 매장 결제 및 공항 데스크 스캔용 모바일 QR 패스입니다.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Application Logic -->
+    <script>
+        lucide.createIcons();
+
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+
+        function switchAssetTab(tabKey) {
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('bg-brand-green', 'text-white', 'shadow');
+                btn.classList.add('text-brand-charcoal');
+            });
+            document.querySelectorAll('.asset-content').forEach(content => {
+                content.classList.add('hidden');
+            });
+
+            document.getElementById(`tab-${tabKey}`).classList.add('bg-brand-green', 'text-white', 'shadow');
+            document.getElementById(`tab-${tabKey}`).classList.remove('text-brand-charcoal');
+            document.getElementById(`content-${tabKey}`).classList.remove('hidden');
+        }
+
+        const cardNewsSlides = [
+            {
+                slideNum: 1,
+                role: "① Hook · 서비스 소개",
+                headline: "외국인 관광객을 위한 핸즈프리 쇼핑",
+                desc: "공항 및 백화점 명품 비주얼로 쇼핑 기대감을 극대화하는 오프닝 슬라이드.",
+                tag: "#Hook #Intro",
+                detail: "신세계 공식 버건디/골드 톤앤매너로 프리미엄 첫인상 각인.",
+                bgGradient: "from-brand-burgundy via-brand-wine to-brand-darkgreen",
+                icon: "plane-takeoff"
+            },
+            {
+                slideNum: 2,
+                role: "② Pain Point 공감",
+                headline: "사고 싶은 건 많은데 들고 갈 손이 없어요",
+                desc: "무거운 캐리어, 늘어나는 쇼핑백, 이동 피로 등 페르소나 '칭칭'의 현실적 고민 공감.",
+                tag: "#PainPoint #Empathy",
+                detail: "짐이 늘수록 백화점 쇼핑 시간이 짧아지는 악순환을 시각적으로 제시.",
+                bgGradient: "from-red-950 via-brand-burgundy to-black",
+                icon: "frown"
+            },
+            {
+                slideNum: 3,
+                role: "③ 핵심 기능 4가지",
+                headline: "패스 하나로 결제부터 공항 수령까지",
+                desc: "PAY · COLLECT · DELIVER · MEMBERSHIP 4대 솔루션을 한눈에 정리.",
+                tag: "#Solution #4Pillars",
+                detail: "쇼핑의 모든 순간을 하나로 연결하는 LUGGAGE PASS 아이콘 그리드.",
+                bgGradient: "from-brand-green via-brand-darkgreen to-black",
+                icon: "layers"
+            },
+            {
+                slideNum: 4,
+                role: "④ 이용 방법 5단계",
+                headline: "맡기고 쇼핑하고, 공항에서 한 번에 받으세요",
+                desc: "1.예약/발급 ➔ 2.보관 ➔ 3.태그쇼핑 ➔ 4.자동집결·배송 ➔ 5.공항수령 흐름도.",
+                tag: "#HowToUse #Process",
+                detail: "누구나 쉽게 이해할 수 있는 직관적인 5단계 타임라인 가이드.",
+                bgGradient: "from-emerald-900 via-brand-darkgreen to-brand-wine",
+                icon: "route"
+            },
+            {
+                slideNum: 5,
+                role: "⑤ 가격 안내 & CTA",
+                headline: "마지막 쇼핑까지 가볍게, 지금 예약하기",
+                desc: "Day Pass(2만원), Stay Pass(3.5만원), Premium Pass(5만원) 비교 제시.",
+                tag: "#Pricing #CallToAction",
+                detail: "사전예약 페이지로 즉시 연결되는 버튼형 CTA로 최종 전환 유도.",
+                bgGradient: "from-amber-950 via-brand-burgundy to-brand-darkgreen",
+                icon: "ticket"
+            }
+        ];
+
+        let currentCardNewsIndex = 0;
+
+        function updateCardNewsSlide() {
+            const slide = cardNewsSlides[currentCardNewsIndex];
+            const canvas = document.getElementById('cardNewsCanvas');
+            
+            canvas.className = `w-full max-w-sm aspect-square rounded-2xl shadow-2xl border-2 border-brand-gold/40 p-6 flex flex-col justify-between text-white transition-all duration-300 bg-gradient-to-br ${slide.bgGradient}`;
+            
+            canvas.innerHTML = `
+                <div class="flex justify-between items-center text-[10px] font-mono border-b border-white/20 pb-2">
+                    <span class="text-brand-gold font-bold">SHINSEGAE CARD NEWS</span>
+                    <span class="bg-white/20 px-2 py-0.5 rounded">0${slide.slideNum} / 05</span>
+                </div>
+                <div class="my-auto space-y-3 text-center">
+                    <div class="w-12 h-12 mx-auto rounded-full bg-brand-gold/20 border border-brand-gold flex items-center justify-center text-brand-gold">
+                        <i data-lucide="${slide.icon}" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-[11px] text-brand-goldlight font-bold block">${slide.role}</span>
+                    <h4 class="text-xl font-extrabold font-serif leading-tight px-2">${slide.headline}</h4>
+                </div>
+                <div class="text-[10px] text-center text-gray-300 border-t border-white/20 pt-2 font-mono">
+                    LUGGAGE PASS — Shop more. Carry less.
+                </div>
+            `;
+            
+            lucide.createIcons();
+
+            document.getElementById('slideIndicator').innerText = `Slide ${slide.slideNum} / 5`;
+            document.getElementById('slideRoleBadge').innerText = slide.role;
+            document.getElementById('slideHeadline').innerText = slide.headline;
+            document.getElementById('slideDesc').innerText = slide.desc;
+            document.getElementById('slideTag').innerText = slide.tag;
+            document.getElementById('slideDetail').innerText = slide.detail;
+
+            document.querySelectorAll('.slide-dot').forEach((dot, idx) => {
+                if (idx === currentCardNewsIndex) {
+                    dot.className = 'slide-dot w-3 h-3 rounded-full bg-brand-green transition';
+                } else {
+                    dot.className = 'slide-dot w-3 h-3 rounded-full bg-gray-300 transition';
+                }
+            });
+        }
+
+        function nextCardNewsSlide() {
+            currentCardNewsIndex = (currentCardNewsIndex + 1) % cardNewsSlides.length;
+            updateCardNewsSlide();
+        }
+
+        function prevCardNewsSlide() {
+            currentCardNewsIndex = (currentCardNewsIndex - 1 + cardNewsSlides.length) % cardNewsSlides.length;
+            updateCardNewsSlide();
+        }
+
+        function setCardNewsSlide(index) {
+            currentCardNewsIndex = index;
+            updateCardNewsSlide();
+        }
+
+        const shortsScenes = [
+            { time: "0:00 - 0:05", startSec: 0, title: "양손 가득 짐을 들고 있는 칭칭", subtitle: `"사고 싶은 건 많은데... 들고 갈 손이 없어요!"`, icon: "shopping-bag", progress: 10 },
+            { time: "0:05 - 0:15", startSec: 5, title: "짐 맡길 곳을 찾는 칭칭", subtitle: `"무거운 캐리어에... 쇼핑백이 계속 늘어나요..."`, icon: "frown", progress: 30 },
+            { time: "0:15 - 0:20", startSec: 15, title: "찾았다! 러기지패스", subtitle: `"신세계 웰컴센터에서 패스 발급 완료!"`, icon: "sparkles", progress: 45 },
+            { time: "0:20 - 0:27", startSec: 20, title: "결제부터 집결까지 한 번에", subtitle: `"태그 한 번으로 PAY & COLLECT 자동 처리!"`, icon: "credit-card", progress: 60 },
+            { time: "0:27 - 0:38", startSec: 27, title: "STEP 3. Pick up at Airport!", subtitle: `"쇼핑 완료 후 두 손 가볍게 공항 데스크 수령!"`, icon: "plane-takeoff", progress: 80 },
+            { time: "0:38 - 0:50", startSec: 38, title: "상황이 역전된 칭칭", subtitle: `"Shop more. Carry less! 신세계 러기지패스!"`, icon: "smile", progress: 100 }
+        ];
+
+        let currentShortsIndex = 0;
+        let isShortsPlaying = false;
+        let shortsInterval = null;
+
+        function updateShortsUIOnly() {
+            const scene = shortsScenes[currentShortsIndex];
+            document.getElementById('shortsSceneTitle').innerText = scene.title;
+            document.getElementById('shortsSubtitle').innerText = scene.subtitle;
+            document.getElementById('shortsProgressBar').style.width = `${scene.progress}%`;
+
+            const iconContainer = document.getElementById('shortsSceneIcon');
+            iconContainer.innerHTML = `<i data-lucide="${scene.icon}" class="w-7 h-7"></i>`;
+            lucide.createIcons();
+
+            document.querySelectorAll('.scene-item').forEach((item, idx) => {
+                if (idx === currentShortsIndex) {
+                    item.className = 'scene-item p-3 rounded-xl border-2 border-brand-gold bg-brand-cream cursor-pointer transition flex items-center justify-between shadow-sm';
+                } else {
+                    item.className = 'scene-item p-3 rounded-xl border border-gray-200 hover:border-brand-gold bg-white cursor-pointer transition flex items-center justify-between';
+                }
+            });
+        }
+
+        function renderShortsScene() {
+            const scene = shortsScenes[currentShortsIndex];
+            updateShortsUIOnly();
+            document.getElementById('shortsTimeCurrent').innerText = scene.time.split(' - ')[0];
+        }
+
+        function selectShortsScene(index) {
+            currentShortsIndex = index;
+            const scene = shortsScenes[index];
+            const video = document.getElementById('shortsVideo');
+            if (video && !isNaN(video.duration)) {
+                video.currentTime = scene.startSec;
+            }
+            renderShortsScene();
+        }
+
+        function toggleShortsPlay() {
+            const video = document.getElementById('shortsVideo');
+            if (video && video.src) {
+                if (video.paused) {
+                    video.play().catch(() => {
+                        fallbackTimerPlay();
+                    });
+                } else {
+                    video.pause();
+                }
+                return;
+            }
+            fallbackTimerPlay();
+        }
+
+        function fallbackTimerPlay() {
+            isShortsPlaying = !isShortsPlaying;
+            const playBtn = document.getElementById('shortsPlayBtn');
+
+            if (isShortsPlaying) {
+                playBtn.innerHTML = `<i data-lucide="pause" class="w-4 h-4"></i>`;
+                shortsInterval = setInterval(() => {
+                    currentShortsIndex = (currentShortsIndex + 1) % shortsScenes.length;
+                    renderShortsScene();
+                }, 2500);
+            } else {
+                playBtn.innerHTML = `<i data-lucide="play" class="w-4 h-4"></i>`;
+                clearInterval(shortsInterval);
+            }
+            lucide.createIcons();
+        }
+
+        function initShortsVideo() {
+            const video = document.getElementById('shortsVideo');
+            if (!video) return;
+
+            video.addEventListener('timeupdate', () => {
+                const cur = video.currentTime;
+                const dur = video.duration || 50;
+
+                const mins = Math.floor(cur / 60);
+                const secs = Math.floor(cur % 60).toString().padStart(2, '0');
+                document.getElementById('shortsTimeCurrent').innerText = `${mins}:${secs}`;
+
+                const percent = Math.min(100, (cur / dur) * 100);
+                document.getElementById('shortsProgressBar').style.width = `${percent}%`;
+
+                let matchedIdx = 0;
+                for (let i = shortsScenes.length - 1; i >= 0; i--) {
+                    if (cur >= shortsScenes[i].startSec) {
+                        matchedIdx = i;
+                        break;
+                    }
+                }
+                if (matchedIdx !== currentShortsIndex) {
+                    currentShortsIndex = matchedIdx;
+                    updateShortsUIOnly();
+                }
+            });
+
+            video.addEventListener('play', () => {
+                isShortsPlaying = true;
+                const playBtn = document.getElementById('shortsPlayBtn');
+                if (playBtn) playBtn.innerHTML = `<i data-lucide="pause" class="w-4 h-4"></i>`;
+                lucide.createIcons();
+            });
+
+            video.addEventListener('pause', () => {
+                isShortsPlaying = false;
+                const playBtn = document.getElementById('shortsPlayBtn');
+                if (playBtn) playBtn.innerHTML = `<i data-lucide="play" class="w-4 h-4"></i>`;
+                lucide.createIcons();
+            });
+        }
+
+        function updateChecklist() {
+            const total = document.querySelectorAll('.chk-item').length;
+            const checked = document.querySelectorAll('.chk-item:checked').length;
+            const percent = Math.round((checked / total) * 100);
+
+            document.getElementById('checklistProgressBar').style.width = `${percent}%`;
+            document.getElementById('checklistPercent').innerText = `${percent}%`;
+        }
+
+        function openBookingModal() {
+            document.getElementById('bookingModal').classList.remove('hidden');
+        }
+
+        function closeBookingModal() {
+            document.getElementById('bookingModal').classList.add('hidden');
+        }
+
+        function handlePassSimulation(e) {
+            e.preventDefault();
+            const name = document.getElementById('simName').value;
+            const tier = document.getElementById('simTier').value;
+            const airport = document.getElementById('simAirport').value;
+
+            document.getElementById('simResultTier').innerText = tier;
+            document.getElementById('simResultInfo').innerText = `고객명: ${name} | 수령장소: ${airport}`;
+            document.getElementById('simPassResult').classList.remove('hidden');
+        }
+
+        function downloadPosterNotice() {
+            const msgBox = document.createElement('div');
+            msgBox.className = 'fixed bottom-5 right-5 bg-brand-darkgreen text-brand-gold border border-brand-gold p-4 rounded-xl shadow-2xl z-50 text-xs font-bold animate-bounce';
+            msgBox.innerText = '포스터 고화질 인쇄용 PNG/AI 다운로드가 요청되었습니다.';
+            document.body.appendChild(msgBox);
+            setTimeout(() => msgBox.remove(), 3000);
+        }
+
+        // Initialize view on window load
+        window.addEventListener('DOMContentLoaded', () => {
+            updateCardNewsSlide();
+            renderShortsScene();
+            initShortsVideo();
+            updateChecklist();
+        });
+    </script>
+</body>
+</html>
